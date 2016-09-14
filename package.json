@@ -1,6 +1,6 @@
 {
   "name": "finciero-zipkin-js",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Finciero package to encapsulate zipkin trace logic",
   "main": "tracer.js",
   "scripts": {

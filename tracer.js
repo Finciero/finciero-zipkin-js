@@ -77,7 +77,7 @@ class TracerJS {
     this.port = port
   }
 
-  start (meta) {
+  start (meta, method) {
     this.logger.info('tracer:start')
 
     if (containsRequiredMeta(meta)) {
@@ -111,7 +111,7 @@ class TracerJS {
     })
 
     this.tracer.recordServiceName(this.serviceName)
-    this.tracer.recordRpc('Scraper')
+    this.tracer.recordRpc(method)
     if (this.extra) {
       Object.keys(this.extra).forEach((prop) => {
         const baggageKeys = ['user-id', 'request-id', 'task-id']
