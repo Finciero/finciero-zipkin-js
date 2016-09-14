@@ -13,7 +13,7 @@ const ctxImpl = new ExplicitContext()
 
 // helpers
 const containsRequiredMeta = (meta) => {
-  if (typeof meta !== 'undefined') {
+  if (meta) {
     return meta.traceId !== undefined && meta.spanId !== undefined
   }
   return false
