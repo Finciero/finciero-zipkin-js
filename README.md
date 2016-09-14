@@ -7,7 +7,7 @@
 finciero-zipkin-js is an abstraction of [zipkin-js](https://github.com/openzipkin/zipkin-js)
 This library let us start a new `zipkin tracer` or continue a `child trace`.
 
-# Config zipking and kafka.
+# Config zipkin and kafka.
 
 To use this library you need setup `KAFKA_SERVICE_URL` in your environment variables.
 Also, you can use [this](https://github.com/openzipkin/docker-zipkin) to run kafka and zipkin with docker.
