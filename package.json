@@ -1,0 +1,25 @@
+{
+  "name": "finciero-zipkin-js",
+  "version": "1.0.0",
+  "description": "Finciero package to encapsulate zipkin trace logic",
+  "main": "tracer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Finciero/finciero-zipkin-js"
+  },
+  "bugs": {
+    "url": "https://github.com/Finciero/finciero-zipkin-js/issues"
+  },
+  "keywords": ["zipkin", "trace", "kafka"],
+  "author": "Rodrigo Fuenzalida <rf@finciero.com>",
+  "license": "ISC",
+  "dependencies": {
+    "finciero-logger": "^1.0.0",
+    "lodash": "^4.15.0",
+    "zipkin": "^0.2.6",
+    "zipkin-transport-kafka": "^0.2.6"
+  }
+}
