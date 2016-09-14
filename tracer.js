@@ -115,7 +115,7 @@ class TracerJS {
     if (this.extra) {
       Object.keys(this.extra).forEach((prop) => {
         const baggageKeys = ['user-id', 'request-id', 'task-id']
-        const isBaggageKey = k => baggageKeys.includes(lodash.snakeCase(k))
+        const isBaggageKey = k => baggageKeys.includes(lodash.kebabCase(k))
         const normalizeKey = k => (
           isBaggageKey(k) ? lodash.snakeCase(k) : `${this.serviceName}.${k}`
         )
