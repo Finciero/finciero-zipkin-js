@@ -1,10 +1,10 @@
 # Finciero JS Zipkin
 
-[![NPM](https://nodei.co/npm/tracer-js.png)](https://nodei.co/npm/tracer-js/)
+[![NPM](https://nodei.co/npm/finciero-zipkin-js.png)](https://nodei.co/npm/finciero-zipkin-js/)
 
-[![npm version](https://badge.fury.io/js/tracer-js.svg)](https://badge.fury.io/js/tracer-js)
+[![npm version](https://badge.fury.io/js/finciero-zipkin-js.svg)](https://badge.fury.io/js/finciero-zipkin-js)
 
-tracer-js is an abstraction of [zipkin-js](https://github.com/openzipkin/zipkin-js)
+finciero-zipkin-js is an abstraction of [zipkin-js](https://github.com/openzipkin/zipkin-js)
 This library let us start a new `zipkin tracer` or continue a `child trace`.
 
 # Config zipking and kafka.
@@ -17,7 +17,7 @@ Also, you can use [this](https://github.com/openzipkin/docker-zipkin) to run kaf
 The basic usage is as follow:
 
 ```js
-const { TracerJS } = require('tracerjs')
+const { TracerJS } = require('finciero-zipkin-js')
 
 const tracer = new TracerJS()
 tracer.config({
